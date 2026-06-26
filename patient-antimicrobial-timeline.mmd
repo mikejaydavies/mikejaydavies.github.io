@@ -1,3 +1,13 @@
+---
+config:
+  gantt:
+    tickInterval: 2day
+    topPadding: 100
+    leftPadding: 75
+    rightPadding: 100
+  themeCSS: |
+    g.tick text { font-size: 9px; }
+---
 gantt
     title Patient Antimicrobial Administration Timeline
     dateFormat  YYYY-MM-DD HH:mm
@@ -15,7 +25,7 @@ gantt
     
     section June 2026
     Co-trimoxazole IV (960mg BD)  :b1, 2026-06-03 15:00, 112h
-    Meropenem IV (2g OD)          :b2, 2026-06-01 11:55, ?
+    Meropenem IV (2g OD)          :b2, 2026-06-01 11:55, 1h
     Co-trimoxazole IV (960mg BD)  :b3, 2026-06-10 21:00, 108h
     Clarithromycin IV (500mg BD)  :b4, 2026-06-11 21:00, 60h
     Co-trimoxazole NG (960mg BD)  :b5, 2026-06-15 10:48, 36h
